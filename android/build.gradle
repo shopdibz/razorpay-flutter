@@ -22,7 +22,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 31
+    namespace 'com.razorpay.razorpay_flutter'
+    
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 21
